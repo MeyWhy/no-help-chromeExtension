@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Silkscreen">
+    <title>No help</title>
+<style>
+    body{background-color: aliceblue; }
+    .head-space{font-family: 'Silkscreen', sans-serif;}
+    .container{display: block;
+            text-align: left;
+            margin-top: 20px;}
+     .input-field {
+            width: 200px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px auto;
+        }
+
+        .add-button {
+            padding: 8px 20px;
+            background-color: green;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+      
+</style>
+</head>
+<body>
+    <div class="head-space">
+    <h1>no gpt here</h1>
+    <h3>add a list of your questions and answer them later or now...</h3>
+     </div>
+    <div class="container">
+     <button id="add-btn" onclick="addQuestion()" style="font-size:20px">+<i class="fa fa-plus"></i></button>
+     <div id="inputFields"></div>
+    </div>
+    
+</body>
+<script src="script/script.js"></script>
+</html>
